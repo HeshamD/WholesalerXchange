@@ -3,7 +3,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/header/Nav";
 import Footer from "./components/footer/Footer";
-import AuthProvider from "./api/auth/provider";
+import AuthProvider from "./api/auth/Provider";
 export default function RootLayout({
   children,
 }: Readonly<{
